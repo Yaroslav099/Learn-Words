@@ -1,0 +1,30 @@
+.wordsContainer {
+  @include respond(tab-land) {
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1500px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    outline: none;
+    position: relative;
+    margin:1px;
+    color: white;
+  }
+  @include respond(tab-port) {
+
+  }
+  @include respond(phone) {
+
+  }
+  @include respond(big) {
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1500px;
+    position: relative;
+    margin:1px;
+    color: white;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    outline: none;
+  }
+}

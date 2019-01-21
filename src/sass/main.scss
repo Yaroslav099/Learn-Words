@@ -1,0 +1,22 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+@import "base/animations";
+
+@import "pages/home";
+
+@import "components/addWord/index";
+@import "components/app/app";
+@import "components/header/header";
+@import "components/home/home";
+@import "components/learn/index";
+@import "components/loader/loader";
+@import "components/news/index";
+
+
+
+      

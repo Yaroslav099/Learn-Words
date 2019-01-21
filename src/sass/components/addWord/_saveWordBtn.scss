@@ -1,0 +1,15 @@
+.saveWordBtn {
+@include respond(tab-land) {
+    margin-top: 20px;
+    padding: 10px;
+}
+@include respond(tab-port) {
+}
+@include respond(phone) {
+    margin-top: 10px;
+}
+@include respond(big) {
+    margin-top: 20px;
+    padding: 10px;
+}
+}

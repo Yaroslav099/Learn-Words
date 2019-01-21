@@ -1,0 +1,6 @@
+.navigation {
+ @include respond(phone) {
+    display : flex;
+    justify-content: space-around;
+ }
+}

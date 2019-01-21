@@ -1,0 +1,63 @@
+.article{
+  @include respond(tab-land) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  @include respond(tab-port) {
+    
+  }
+  @include respond(phone) {
+ 
+  }
+  @include respond(big) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  & a {
+    @include respond(tab-land) {
+      padding: 10px;
+    }
+    @include respond(tab-port) {
+      
+    }
+    @include respond(phone) {
+   
+    }
+    @include respond(big) {
+      padding: 10px;
+    }
+  }
+  & img {
+    @include respond(tab-land) {
+      width: 50%;
+    }
+    @include respond(tab-port) {
+      width: 80%;
+    }
+    @include respond(phone) {
+      width: 95%;
+    }
+    @include respond(big) {
+      width: 50%;
+    }
+  }
+  & .content {
+    @include respond(tab-land) {
+      width: 50%;
+    }
+    @include respond(tab-port) {
+      width: 80%;
+    }
+    @include respond(phone) {
+      width: 95%;
+    }
+    @include respond(big) {
+      width: 50%;
+    }
+  }
+}
+

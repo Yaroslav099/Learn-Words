@@ -1,0 +1,28 @@
+    .addWordContainer {
+      @include respond(tab-land) {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 30%;
+        width: 75%;
+        margin: 0 auto;
+      }
+      @include respond(tab-port) {
+        justify-content: center;
+        width: 75%;
+      }
+      @include respond(phone) {
+        width: 100%;
+        height: 30%;
+      }
+      @include respond(big) {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 30%;
+        width: 50%;
+        margin: 0 auto;
+      }
+    }  
